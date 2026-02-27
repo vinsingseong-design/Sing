@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vinsinggz – Profile</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+<link rel="stylesheet" href="index.html">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
+body{background:#0b0f1a;color:#fff}
+
+/* ===== CARD ===== */
+.profile{
+    max-width:1200px;
+    margin:80px auto;
+    background:linear-gradient(135deg,#0a1a3a,#3b2b8a);
+    border-radius:20px;
+    padding:50px;
+    display:flex;
+    gap:40px;
+    box-shadow:0 30px 80px rgba(0,0,0,.6);
+}
+
+.profile-text{flex:1}
+
+.rank{color:#ffd84a;font-weight:700;font-size:18px}
+.name{font-size:46px;font-weight:800;margin:10px 0}
+.jp{opacity:.8;margin-bottom:20px}
+.desc{line-height:1.6;opacity:.9;max-width:520px}
+
+.profile-img{
+    width:360px;
+    display:flex;
+    align-items:flex-end;
+}
+.profile-img img{
+    width:100%;
+    filter:drop-shadow(0 0 40px rgba(153,0,255,.8));
+}
+
+/* ===== TECH STACK ===== */
+.stack{
+    max-width:1200px;
+    margin:40px auto 100px;
+}
+
+.stack h2{
+    font-size:32px;
+    margin-bottom:30px;
+    text-align:center;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(180px,1fr));
+    gap:18px;
+}
+
+.tech{
+    background:#111827;
+    padding:14px 18px;
+    border-radius:12px;
+    display:flex;
+    align-items:center;
+    gap:14px;
+    transition:.3s;
+}
+
+.tech i{
+    font-size:26px;
+}
+
+.tech span{font-size:15px}
+
+.tech:hover{
+    transform:translateY(-6px) scale(1.02);
+    box-shadow:0 0 20px rgba(153,0,255,.6);
+}
+</style>
+</head>
+<body>
+
+<!-- PROFILE CARD -->
+<section class="profile">
+    <div class="profile-text">
+        <div class="rank">S RANK</div>
+        <div class="name">SUNG JIN WOO</div>
+        <div class="jp">(성진우)</div>
+        <p class="desc">
+            Sung Jin-Woo is the protagonist of Solo Leveling. Once the weakest hunter,
+            he awakened as a Player and gained limitless growth, becoming the Shadow Monarch.
+        </p>
+    </div>
+
+    <div class="profile-img">
+        <img src="solo_leveling-removebg-preview.png" alt="Sung Jin Woo">
+    </div>
+</section>
+
+<!-- TECH STACK -->
+<section class="stack">
+    <h2>⚡ Tech Stack</h2>
+    <div class="grid">
+
+        <div class="tech"><i class="devicon-html5-plain colored"></i><span>HTML</span></div>
+        <div class="tech"><i class="devicon-css3-plain colored"></i><span>CSS</span></div>
+        <div class="tech"><i class="devicon-javascript-plain colored"></i><span>JavaScript</span></div>
+        <div class="tech"><i class="devicon-react-original colored"></i><span>React</span></div>
+        <div class="tech"><i class="devicon-tailwindcss-original colored"></i><span>Tailwind</span></div>
+        <div class="tech"><i class="devicon-nodejs-plain colored"></i><span>Node.js</span></div>
+        <div class="tech"><i class="devicon-python-plain colored"></i><span>Python</span></div>
+        <div class="tech"><i class="devicon-django-plain colored"></i><span>Django</span></div>
+        <div class="tech"><i class="devicon-git-plain colored"></i><span>Git</span></div>
+        <div class="tech"><i class="devicon-github-original"></i><span>GitHub</span></div>
+        <div class="tech"><i class="devicon-vscode-plain colored"></i><span>VS Code</span></div>
+        <div class="tech"><i class="devicon-figma-plain colored"></i><span>Figma</span></div>
+
+    </div>
+</section>
+
+</body>
+</html>
